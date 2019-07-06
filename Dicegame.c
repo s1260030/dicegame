@@ -10,8 +10,6 @@ int main(){
   scanf("%s",name);
   printf("Hello, %s !\n",name);
 
-  printf("Rollong the dice...\n");
-  
   
   int d1 = rand() % 6 + 1;
   int d2 = rand() % 6 + 1;
@@ -19,11 +17,6 @@ int main(){
   printf("Die 1: %d \n",d1);
   printf("Die 2: %d \n",d2);
   printf("Total value: %d",d1+d2);
-  if((d1 + d2) > 7){
-    printf("You won\n");
-  }
-  else{
-    printf("You lost!\n");
-  }
+ 
   return 0;
 }
